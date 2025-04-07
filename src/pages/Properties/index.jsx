@@ -1,8 +1,9 @@
 import React from 'react'
+import { Container } from './style'
 
 function Properties() {
   return (
-    <div>Properties</div>
+    <Container>Properties5</Container>
   )
 }
 
