@@ -1,9 +1,9 @@
 import React from 'react'
-import { Container } from './style'
+import { Container } from '../Properties/style'
 
 function Home() {
   return (
-    <Container>Home</Container>
+    <Container>Home5</Container>
   )
 }
 

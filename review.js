@@ -1,3 +1,4 @@
+/* eslint-disable no-irregular-whitespace */
 /**
  // echo "# Real-Houzing-project" >> README.md
  // git init
