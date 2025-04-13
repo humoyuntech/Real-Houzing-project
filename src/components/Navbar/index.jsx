@@ -17,8 +17,8 @@ export function Navbar() {
         </Section>
         <Section><button>Sing in</button></Section>
       </Wrapper>
-      <Outlet />
       </Main>
+      <Outlet />
     </Container>
   )
 }

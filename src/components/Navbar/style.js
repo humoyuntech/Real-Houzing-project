@@ -10,6 +10,7 @@ const Main = styled.div`
   display: flex;
   justify-content: center;
   background: var(--colorPrimary);
+
 `;
 
 const Wrapper = styled.div`
