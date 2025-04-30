@@ -13,7 +13,7 @@ function Root() {
         <Routes>
           <Route element={<Navbar />}>
             {navbar.map(({ path, element, id }) => {
-              return <Route key={id} path={path} element={element} />;
+              return <Route key={id} path={path} element={element} />;  
             })}
           </Route>
             <Route path="/" element={<Navigate to={'/home'} />} />
