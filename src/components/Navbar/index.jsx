@@ -2,6 +2,7 @@ import React from 'react';
 import {Outlet, useNavigate} from "react-router-dom";
 import {navbar} from "../../utils/navbar"
 import {  Container, Link, Logo, Main, Menu, Section, Wrapper } from './style';
+import Button from '../Generic/Button';
 
 export function Navbar() {
   const navigate = useNavigate();
@@ -15,7 +16,9 @@ export function Navbar() {
               return <Link className={({ isActive }) => isActive && 'active'} key={index} to={path}>{title}</Link>
             })}
         </Section>
-        <Section><button>Sing in</button></Section>
+        <Section>
+          <Button />
+        </Section>
       </Wrapper>
       </Main>
       <Outlet />
