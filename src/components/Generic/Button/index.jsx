@@ -2,15 +2,12 @@ import React from "react";
 import { Container } from "./style";
  
 
-export function Button() {
+export function Button({ children, type, onClick, width, height }) {
     return (
-      <Container type={'dark'}>
-        Button
+      <Container onClick={onClick} type={type} width={width} height={height}>
+        {children || "Generec Butten" }
       </Container>
     )
 }
   
   export default Button
-
-
-//   21:00

@@ -1,10 +1,16 @@
 import React from 'react'
 import {Container, Image } from './style'
+// import Input from '../../components/Generic/Input'
+import {Button, Input} from '../../components/Generic/';
 
 function Home() {
   return (
     <Container>
       <h1>Home</h1>
+      <Input placeholder={"Say Hi"} width={200} />
+      <br/>
+      <Button onClick={() => alert("hello")}>Click me</Button>
+      <br/>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, distinctio ea? Corrupti, numquam illum? Neque, consequuntur quisquam deserunt minus voluptate maiores quaerat, eum nisi placeat harum est sapiente quae voluptatem?
       </p>

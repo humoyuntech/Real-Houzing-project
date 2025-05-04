@@ -36,11 +36,13 @@ const Container = styled.button`
     justify-content: center;
     align-items: center;
     min-width: 120px;
-    font-size: 14px;
+    border-radius: 5px;
+
     font-size: ${({ fontSize }) => (fontSize ? `${fontSize}px` : '14px')};
     height: ${({ height }) => (height ? `${height}px` : '44px')};
     width: ${({ width }) => (width ? `${width}px` : '130px')};
     cursor: pointer;
+
     ${getType}
 
     &:active {
