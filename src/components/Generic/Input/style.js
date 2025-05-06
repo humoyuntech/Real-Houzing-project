@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Icons } from '../../Filter/style';
 
 const getType = ({ type }) => {
   switch (type) {
@@ -42,8 +43,22 @@ const Container = styled.input`
   width: ${({ width }) => (width ? `${width}px` : '100%')};
   outline: none;
   border: 1px solid #e6e9ec;
-
+  padding-left: ${({ icon }) => (icon ? '35px' : '20px')};
   /* ${getType} */
 `;
 
-export { Container };
+const Wrapper = styled.div`
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: ${({ width }) => (width ? `${width}px` : '100%')};
+`;
+
+const Icon = styled.div`
+    position: absolute;
+  transform: translate(-50%, -50%);
+  left: 20px;
+  top: 50%;
+`;
+
+export { Container, Wrapper, Icon };
