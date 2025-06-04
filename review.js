@@ -13,6 +13,12 @@
  // git push -u origin main
  */
 
+//  java -jar houzing-app-NOEMAIL.jar
+// http://localhost:8081/swagger-ui.html
+// # VITE_BASE_URL = 'https://houzing-app.herokuapp.com/api/v1'
+// 
+
+
 /**
   
 Part 1 | Configuration | Generic Navbar 
